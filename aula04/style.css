@@ -1,0 +1,28 @@
+.topo {
+    background-color: brown;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.links-topo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 5%;
+    justify-content: space-around;
+    width: 30%;
+}
+
+.conteudo {
+    background-color: blueviolet;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.textos {
+    /* background-color: aquamarine; */
+    width: 85%;
+}
+
