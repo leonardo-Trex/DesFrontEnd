@@ -1,0 +1,154 @@
+body {
+    background-color: green;
+    min-width: 900px;
+
+}
+
+a {
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 20px;
+}
+
+
+.caixa-nav {
+    color: white;
+    background-image: url(images/jp_menuFundo.jpg);
+    height: 40px;
+    width: 600px;
+    border: 3px solid white;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.4 );
+}
+
+.caixa {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+.topo {
+    background-image: url(images/jp_topoFundo.jpg);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.caixa-filmes {
+    display: flex;
+    background-color: white;
+    height: 300px;
+}
+
+.caixa-filmes2 {
+    display: flex;
+    background-color: gray;
+    height: 300px;
+
+}
+
+.textos {
+    width: 80%;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+}
+
+.footer {
+    background-image: url(images/jp_topoFundo.jpg);
+    color: aliceblue;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#titulo {
+    font-family: "jurassic";
+    font-size: 80px;
+    background-color: brown;
+    color: white;
+    font-weight: 600;
+    font-stretch: expanded;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@font-face {
+    font-family: "jurassic";
+    src: url(jp_fontJurassicPark.ttf);
+}
+
+/* table:nth-child(even) {
+    background-color: yellow;
+    } */
+
+.tabela {
+    width: 400px;
+    /* height: ; */
+   
+}
+
+.tabela td {
+    height: 40px;
+    text-align: center;
+}
+
+.tabela tbody tr:nth-child(even) {
+    background-color: yellow;
+}
+
+.tabela tbody tr:nth-child(odd) {
+    background-color: grey;
+}
+
+.tabela thead tr {
+    background-color: rgb(61, 57, 57);
+    height: 40px;
+    color: white;
+    font-size: 20px;
+}
+
+
+.caixa-tabela {
+    background-image: url(images/jp_fundoSelva.jpg);
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#tabela-titulo {
+    color: white;
+    font-size: 30px;
+}
+
+.img1 {
+    border: 5px solid red;
+}
+
+.img2 {
+    border: 5px solid  yellow;
+}
+
+
+.textos {
+    width: 70%;
+}
+
+.textos2 {
+    color: white;
+    width: 70%;
+}
